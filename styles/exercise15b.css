@@ -1,0 +1,47 @@
+.image-container {
+    position: relative;
+    display:inline-block;
+}
+img {
+    width:300px;
+    height:300px;
+    object-fit:cover;
+}
+
+.discount {
+    position:absolute;
+    top:6px;
+    right:0;
+    font-family:Arial;
+    font-size:12px;
+    background-color:black;
+    color:white;
+    padding-left:5px;
+    padding-right:5px;
+    padding-top:4px;
+    padding-bottom:4px;
+}
+
+.cart-button {
+    position:absolute;
+    bottom:0;
+    left:0;
+    right:0;
+    top:220px;
+    background-color:rgba(255,255,255,0.7);
+    align-items:center;
+    display:flex;
+    justify-content: center;
+}
+
+button {
+    padding-left:10px;
+    padding-right:10px;
+    padding-top:6px;
+    padding-bottom:6px;
+    font-family:Arial;
+    font-size:12px;
+    border-width:1px;
+    border-style:solid;
+    cursor:pointer;
+}

@@ -1,0 +1,47 @@
+div {
+    display:flex;
+}
+
+.fx-1-1 {
+    background-color:lightblue;
+    width:200px;
+}
+.fx-1-2 {
+    background-color:lightpink;
+    width:75px;
+}
+
+.fx-2-1 {
+    background-color:lightblue;
+    width:50px;
+}
+.fx-2-2 {
+    background-color:lightpink;
+    flex:1;
+}
+.fx-2-3 {
+    background-color:lightblue;
+    width:75px;
+}
+
+.flexbox-3 {
+    justify-content:space-between;
+    border:none;
+    background-color:lightyellow;
+}
+.fx-3-1 {
+    background-color:lightpink;
+    
+}
+
+.flexbox-4 {
+    border-width:1px;
+    border-color:gray;
+    border-style:solid;
+    height:50px;
+    align-items:center;
+    justify-content:space-between;
+}
+.fx-4-1 {
+    background-color:lightpink;
+}

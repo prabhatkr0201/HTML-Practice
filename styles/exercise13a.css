@@ -1,0 +1,41 @@
+.one {
+    display:flex;
+}
+.one_1 {
+    width:100px;
+    height:50px;
+    display:flex;
+    background-color:lightpink;
+    align-items:center;
+}
+.one_1_1 {
+    margin-left:30px;
+    background-color:black;
+    color:white;
+}
+.one_2 {
+    background-color:lightblue;
+    width:200px;
+}
+
+.two {
+    display:flex;
+    flex-direction:row;
+}
+.two_1 {
+    background-color:lightpink;
+    width:100px;
+    height:50px;
+}
+.two_2 {
+    background-color:lightblue;
+    width:200px;
+}
+.two_2_2 {
+    display:flex;
+    justify-content:space-between;
+}
+.two_2_2_1 {
+    background-color:black;
+    color:white;
+}

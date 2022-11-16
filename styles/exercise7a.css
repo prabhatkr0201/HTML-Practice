@@ -1,0 +1,32 @@
+.img1 {
+    width:300px;
+    border-radius:10px;
+    margin-bottom:20px;
+}
+
+.img2 {
+    width:300px;
+    margin-bottom:20px;
+}
+
+.img3 {
+    width:300px;
+    border-radius:150px;
+}
+
+.bar {
+    margin-top:20px;
+    width:200px;
+    height:25px;
+}
+
+.google {
+    margin-top:20px;
+    font-size:12px;
+    height:25px;
+    width:300px;
+    border:none;
+    border-radius:15px;
+    padding-left:15px;
+    box-shadow:0px 0px 10px rgba(0,0,0,0.5);
+}

@@ -1,0 +1,109 @@
+div {
+    font-family:Arial;
+}
+
+.global {
+    background-color:rgb(227, 238, 241);
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    height:50px;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:50px;
+    padding-right:50px;
+}
+.left {
+    
+    display:flex;
+    align-items:center;
+    
+}
+img {
+    width:40px;
+    height:40px;
+    border-radius:20px;
+    object-fit:cover;
+}
+.name {
+    font-weight:bold;
+    margin-left:10px;
+}
+
+.add {
+    background-color:rgb(24, 119, 242);
+    color:white;
+    border:none;
+    font-family:Arial;
+    font-weight:bold;
+    border-radius:4px;
+    padding-left:10px;
+    padding-right:10px;
+    padding-top:5px;
+    padding-bottom:5px;
+    margin-right:10px;
+}
+.message {
+    background-color:rgb(230, 230, 230);
+    color:black;
+    border:none;
+    font-family:Arial;
+    font-weight:bold;
+    border-radius:4px;
+    padding-left:10px;
+    padding-right:10px;
+    padding-top:5px;
+    padding-bottom:5px;
+}
+
+.sidebar {
+    display:flex;
+    align-items:center;
+}
+.sidebar1 {
+    background-color:rgb(33, 33, 33);
+    position:fixed;
+    left:0;
+    top:70px;
+    bottom:0;
+    padding-top:10px;
+    padding-left:10px;
+    padding-right:10px;
+}
+.discord-img {
+    margin-bottom:10px;
+}
+.sidebar2 {
+    background-color:rgb(55, 55, 55);
+    position:fixed;
+    left:60px;
+    top:70px;
+    bottom:0;
+    width:100px;
+    padding-top:15px;
+    padding-left:15px;
+    padding-right:15px;
+}
+.side-info {
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:10px;
+}
+.info {
+    color:white;
+    font-size:12px;
+}
+.plus {
+    font-size:20px;
+    color:rgb(150, 150, 150);
+}
+.sub-categories {
+    color:rgb(150, 150, 150);
+    line-height:24px;
+    font-size:12px;
+}

@@ -1,0 +1,46 @@
+.bottom-right {
+    position:fixed;
+    right:20px;
+    bottom:20px;
+    background-color:black;
+    color:white;
+}
+
+.right-sidebar {
+    background-color:green;
+    color:white;
+    position:fixed;
+    right:0;
+    top:0;
+    bottom:0;
+    width:100px;
+}
+
+.modal {
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background-color:rgba(0,0,0,0.1);
+    position:fixed;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+}
+.box {
+    border:none;
+    background-color:white;
+    padding-left:15px;
+    padding-right:100px;
+    padding-top:10px;
+    padding-bottom:10px;
+    border-radius:4px;
+    box-shadow:0px 0px 5px rgba(0,0,0,0,3);
+}
+.title {
+    font-weight:bold;
+    font-size:50px;
+}
+.description {
+    font-size:35px;
+}

@@ -1,0 +1,92 @@
+.square {
+    width:100px;
+    height:100px;
+    background-color:red;
+    display:inline-block;
+    margin-right:40px;
+}
+
+.circle {
+    display:inline-block;
+    width:100px;
+    height:100px;
+    background-color:green;
+    border-radius:50%;
+}
+
+.wrap {
+    width:300px;
+    border-width:1px;
+    border-color:rgb(200,200,200);
+    border-style:solid;
+    padding-left:10px;
+    padding-bottom:14px;
+    margin-top:10px;
+}
+.para {
+    font-family:Arial;
+}
+
+.yt-music {
+    width:300px;
+    height:85px;
+    background-color:black;
+    border:none;
+    padding-left:10px;
+    padding-bottom:14px;
+}
+.install {
+    font-family:Arial;
+    color:white;
+    margin-bottom:10px;
+    padding-top:15px;
+    font-size:20px;
+    font-weight:bold;
+}
+.describe {
+    font-family:Arial;
+    color:white;
+    padding-bottom:10px;
+    font-size:13px;
+    margin-bottom:0;
+}
+
+.twitter {
+    width:470px;
+    height:60px;
+    border:none;
+    margin-top:10px;
+    padding-top:10px;
+    padding-left:12px;
+    border-radius:5px;
+    box-shadow:0px 0px 5px rgba(0,0,0,0.50);
+}
+.image {
+    width:50px;
+    border:none;
+    border-radius:50%;
+    vertical-align:middle;
+}
+.new {
+    width:300px;
+    border:none;
+    vertical-align:middle;
+    font-family:Arial;
+    font-size:18px;
+    color:gray;
+    margin-left:5px;
+}
+.tweet {
+    background-color: rgb(29, 155, 240);
+    color: white;
+    border: none;
+    width:80px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor:pointer;
+}

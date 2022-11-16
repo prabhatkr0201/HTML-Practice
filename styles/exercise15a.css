@@ -1,0 +1,42 @@
+.box {
+    width:320px;
+    height:180px;
+    position:fixed;
+    right:0;
+    bottom:0;
+    background-color:lightgray;
+    margin-bottom:20px;
+    margin-right:20px;
+}
+
+.cross {
+    background-color:black;
+    color:white;
+    position:absolute;
+    top:-8px;
+    left:-8px;
+    padding-left:10px;
+    padding-right:10px;
+    padding-top:7px;
+    padding-bottom:7px;
+    border-radius:20px;
+    font-family:Arial;
+    font-size:12px;
+}
+
+.time {
+    font-family:Arial;
+    font-size:12px;
+    font-weight:500px;
+    background-color:black;
+    color:white;
+    padding-left:5px;
+    padding-right:5px;
+    padding-top:4px;
+    padding-bottom:4px;
+    position:absolute;
+    right:0;
+    bottom:0;
+    margin-right:4px;
+    margin-bottom:4px;
+}

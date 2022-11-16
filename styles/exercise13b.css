@@ -1,0 +1,120 @@
+div {
+    font-family:Arial;
+}
+.box{
+    border:none;
+    border-radius:4px;
+    padding-left:10px;
+    padding-right:10px;
+    padding-top:5px;
+    padding-bottom:5px;
+    width:300px;
+    box-shadow:0px 0px 5px rgba(0,0,0,0.2);
+}
+.inboxes {
+    color:gray;
+    font-size:12px;
+    margin-bottom:10px;
+    margin-top:5px;
+}
+.detail {
+    display:flex;
+    align-items:center;
+    margin-bottom:10px;
+}
+.dp {
+    width:40px;
+    height:40px;
+    border-radius:20px;
+    margin-right:8px;
+}
+.user-info {
+    display:flex;
+    justify-content:space-between;
+    margin-bottom:3px;
+}
+.username {
+    font-weight:bold;
+    font-size:15px;
+}
+.time {
+    color:gray;
+    font-size:10px;
+}
+.user-description {
+    font-weight:bold;
+    font-size:12px;
+    margin-bottom:2px;
+}
+.user-comment {
+    font-size:12px;
+    color:gray;
+}
+
+.new-box {
+    padding-left:10px;
+    padding-right:10px;
+    padding-top:5px;
+    padding-bottom:5px;
+    box-shadow:0px 0px 5px rgba(0,0,0,0.3);
+    width:400px;
+    display:flex;
+}
+.new-dp {
+    width:40px;
+    height:40px;
+    border-radius:20px;
+    object-fit:cover;
+}
+.new-all-info {
+    margin-left:5px;
+    margin-right:5px;
+    flex:1;
+}
+.new-user-info {
+    display:flex;
+    column-gap:5px;
+}
+.new-username {
+    font-weight:bold;
+    font-size:15px;
+}
+.new-tag {
+    color:rgb(111, 111, 111);
+    font-size:15px;
+}
+.new-user-description {
+    font-size:14px;
+    margin-top:5px;
+    margin-bottom:5px;
+}
+.new-yt {
+    border-width:1px;
+    border-color:rgb(200,200,200);
+    border-style:solid;
+    border-radius:15px;
+    display:flex;
+    align-items:center;
+    margin-bottom:5px;
+}
+.blank-color {
+    background-color:rgb(220, 220, 220);
+    width:100px;
+    height:100px;
+    margin-right:10px;
+    margin-top:-1px;
+    margin-bottom:-1px;
+    border-bottom-left-radius:15px;
+    border-top-left-radius:15px;
+}
+.new-yt-info {
+    flex:1;
+}
+.yt-info {
+    font-size:15px;
+    margin-bottom:3px;
+    color:rgb(111, 111, 111);
+}
+.yt-description {
+    line-height:22px;
+}
